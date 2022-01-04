@@ -1,0 +1,39 @@
+.home-page-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.menu-wrapper {
+    width: 200px;
+}
+.home-router-view {
+    flex: 1;
+    padding: 20px;
+}
+
+.home-child-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+.form-box {
+    width: 500px;
+}
+
+.result-box {
+    flex: 1;
+    max-height: calc(100vh - 160px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.month-total {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.stat-item {
+    margin-bottom: 2px;
+}
